@@ -84,8 +84,8 @@ function WordBlanks(props)  {
                     className={props.statuses[i]}
                     disabled={!props.isActive}
                     style={{
-                        width: '50px',
-                        height: '50px',
+                        width: '40px',
+                        height: '40px',
                         fontSize: '1.2rem',
                         textAlign: 'center',
                         backgroundColor:
