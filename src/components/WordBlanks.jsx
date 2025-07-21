@@ -4,15 +4,6 @@ import { checkWordValid } from "./checkWordValid"
 function WordBlanks(props)  {
 
 
-//       word,
-//   guess,
-//   statuses,
-//   rowIndex,
-//   isActive,
-//   updateGuess,
-//   updateStatuses,
-//   nextGuess,
-
     const refs = useRef([...Array(5)].map(() => React.createRef()))
 
     useEffect(() => {
@@ -93,9 +84,9 @@ function WordBlanks(props)  {
                     className={props.statuses[i]}
                     disabled={!props.isActive}
                     style={{
-                        width: '80px',
-                        height: '80px',
-                        fontSize: '2rem',
+                        width: '50px',
+                        height: '50px',
+                        fontSize: '1.2rem',
                         textAlign: 'center',
                         backgroundColor:
                             props.statuses[i] === 'correct'
