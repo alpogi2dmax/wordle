@@ -8,11 +8,10 @@ import Confetti from 'react-confetti'
 import { useWindowSize } from 'react-use'
 
 function App() {
-  const [count, setCount] = useState(0)
 
 
   const [word,setWord] = useState(words[Math.floor(Math.random() * words.length)])
-  console.log(word)
+
   const maxGuesses = 6
 
   const [message, setMessage] = useState('')
