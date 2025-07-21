@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.word-blank {
+  display: flex;
+  /* flex-direction: column */
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.word-blank input {
+  width: 80px;
+  height: 80px;
+  border: white solid;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  text-align: center
+}
+
+.word-blank input.correct {
+  background-color: green
+}
+
+.word-blank input.included {
+  background-color: orange;
+}
+
+.word-blank input.incorrect {
+  background-color: red;
+}
+
+button {
+  font-size: 1.5rem;
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px;
+  background-color: blue;
+  color: white
+}
